@@ -1,0 +1,73 @@
+/* Contacto */
+
+.contacto {
+    padding-top: 10%;
+  }
+  
+  p input {
+    border-bottom: 1px solid $violeta;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+  
+    &.formulario {
+      margin-top: 25px;
+      color: $violeta;
+    }
+  }
+  
+  .textarea {
+    border-bottom: 1px solid $violeta;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    margin-top: 25px;
+    color: $violeta;
+    font-family: noto-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px;
+  
+    &:focus {
+      color: $violeta;
+      outline-color: $aqua;
+    }
+  }
+  
+  .formulario {
+    color: $gris;
+    font-family: noto-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    height: 50px;
+    padding: 10px;
+  
+    &:focus {
+      color: $violeta;
+      outline-color: $aqua;
+    }
+  }
+  
+  .tituloh3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .h6 {
+    margin-bottom: 3%;
+  }
+  
+  form {
+    margin-bottom: 20%;
+  }
+  
+  .socialmediaSeguinos {
+    display: flex;
+    margin-top: 5px;
+  }

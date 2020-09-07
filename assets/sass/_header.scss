@@ -1,0 +1,266 @@
+#contactoRes{
+  display: none;
+}
+.transparent {
+    position: fixed;
+    z-index: 20;
+    background-color: transparent;
+    transition: ease-in 0.2s;
+  }
+  .white {
+    color: $grisclaro;
+    &:hover {
+      color: $blanco;
+      text-decoration: underline $blanco;
+    }
+  }
+  .active-li{
+    color: $blanco;
+    text-decoration: underline;
+  }
+  .navLogo{
+    display: flex;
+  }
+  .navBoton{
+    display: flex;
+    align-items: center;
+  }
+ .contactoNav {
+  border-radius: 40px;
+  background-color: transparent;
+  border: $amarillo 2px solid;
+  padding: 12px 45px;
+  margin-top: 10%;
+  transition: all 0.3s;
+  display: inline-block;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: $grisclaro;
+  font-family: noto-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $aqua;
+    border: none;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: $blanco;
+
+    &:before {
+      width: 100%;
+    }
+  }
+
+  a, p {
+    color: $blanco;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+}
+.contactoNav {
+  border-radius: 40px;
+  background-color: transparent;
+  border: $amarillo 2px solid;
+  padding: 12px 45px;
+  transition: all 0.3s;
+  display: inline-block;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: $grisclaro;
+  font-family: noto-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $aqua;
+    border: none;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: $blanco;
+
+    &:before {
+      width: 100%;
+    }
+  }
+
+  a, p {
+    color: $blanco;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+}
+  .navChange {
+    position: fixed;
+    z-index: 20;
+    background-color:$violeta;
+    transition: ease-in 0.2s;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+  }
+  
+  ul.link-items {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-self: center;
+    list-style-type: none;
+    text-decoration: none;
+  
+    a {
+      color: $aqua;
+      text-decoration: none;
+    }
+  }
+  .contactoNavHome{
+  border-radius: 40px;
+  background-color: transparent;
+  border: $amarillo 2px solid;
+  padding: 12px 45px;
+  transition: all 0.3s;
+  display: inline-block;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: $gris;
+  font-family: noto-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $aqua;
+    border: none;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: $blanco;
+
+    &:before {
+      width: 100%;
+    }
+  }
+
+  a, p {
+    color: $blanco;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+}
+  
+  .menu {
+    display: none;
+    border: solid $blanco 1,5px;
+    padding: 5px;
+    border-radius: 3px;
+  
+    div {
+      width: 26px;
+      height: 2px;
+      margin: 4px;
+      background-color: $blanco;
+  
+      &.linea2 {
+        width: 20px;
+      }
+    }
+  }
+  
+  header nav ul {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .index-header {
+    background-image: url("../images/Ilustraciones/fondo_Mesa\ de\ trabajo\ 1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  li a {
+    color: $blanco;
+    text-decoration: none;
+  }
