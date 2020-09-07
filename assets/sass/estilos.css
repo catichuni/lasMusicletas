@@ -430,6 +430,56 @@ aside {
   height: 74vh;
 }
 
+.eventoImagen {
+  margin-top: 30vh;
+  margin-left: 10%;
+  height: 60vh;
+  text-align: center;
+}
+
+.eventoImagen img {
+  width: 100%;
+}
+
+.evento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tittleFechas {
+  color: #643b8d;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.tituloh4 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #00be9e;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fondoEvento {
+  background-color: #e4e3e3;
+  padding-bottom: 7%;
+}
+
+.text-center {
+  text-align: center;
+  color: #3d3d3d;
+}
+
+.copyRight {
+  padding-top: 1%;
+  background-color: #FFBD3C;
+  padding-bottom: 1%;
+}
+
 #contactoRes {
   display: none;
 }

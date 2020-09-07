@@ -11,6 +11,7 @@
     <meta name=”author” content=”Artista”>
     <title>Eventos</title>
     <script src="https://kit.fontawesome.com/6bf0ece3fd.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/sass/estilos.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="icon" href="assets/images/logo@2x.ico">
@@ -37,9 +38,6 @@
                 <a href="fotos.html">
                     <li class="white">Galería</li>
                 </a>
-                <!-- <a href="contacto.html">
-                    <li class="white">Contacto</li>
-                </a> -->
             </ul>
             <div class="navBoton">
                 <a href="contacto.html">
@@ -53,44 +51,77 @@
             </div>
         </nav>
     </header>
-
-    <!-- Social Media -->
-    <div class="Padre ">
-        <div class="socialMediaFlex">
+    <section class="evento">
+        <div class="socialmedia">
             <div class="circle">
                 <button class="round"><a href="https://www.instagram.com/lasmusicletas/" target="_blank"><i
-                    class="fab iconoBlanco fa-instagram"></i></a></button>
+                            class="fab iconoBlanco fa-instagram"></i></a></button>
             </div>
             <div class="circle">
-                <button class="round"><i class="fas fa-envelope"></i></button>
+                <button class="round"><a href="https://www.youtube.com/channel/UCklZ4m7a0A1k0pC_XOqmTRw"
+                        target="_blank"><i class="iconoBlanco fab fa-youtube"></i></button>
             </div>
             <div class="circle">
                 <button class="round"><a href="https://www.facebook.com/search/top?q=las%20musicletas"
-                    target="_blank"><i class="fab iconoBlanco fa-facebook-square"></i></a></button>
+                        target="_blank"><i class="fab iconoBlanco fa-facebook-square"></i></a></button>
             </div>
             <div class="circle">
-                <button class="round"><i class="fab fa-twitter-square"></i></button>
+                <button class="round"><a href="https://lasmusicletas.bandcamp.com/album/las-musicletas"
+                        target="_blank"><i class=" iconoBlanco fab fa-bandcamp"></i></a></button>
             </div>
         </div>
-        <!-- Video -->
-        <div class="videoGrande container">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iRPT4TlgLPc" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <div class="eventoImagen">
+            <a href="https://septiembremusical.gob.ar/" target="_blank">
+                <img src="assets/images/sep-4.jpg" alt="Septiembre Musical">
+            </a>
+
         </div>
-    </div>
+    </section>
+
+
+    <!-- Proximos Eventos -->
+    <section class="fondoEvento">
+        <h2 class="tittleFechas responsive"> Proximas Fechas </h2>
+        <div class="row justify-content-md-center infoEventos">
+            <div class="col-md-5 col-sm-12">
+                <h4 class="tituloh4">Próximas Fechas</h4>
+                <p>Nuestra obligación es colaborar con la fase de contención del coronavirus (COVID-19) priorizando la
+                    salud de aquellos que disfrutan de nuestros shows, de las personas que colaboran y forman parte de
+                    nuestro staff y de sus familias. Momentaneamente todos los shows se encuentran suspendidos. En breve
+                    estaremos informando cuáles serán las nuevas fechas.</p>
+                
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <h4 class="tituloh4">COVID-19</h4>
+                <p>En vista del brote de Coronavirus, te recomendamos que consultes el <strong>sitio web</strong> de la
+                    <strong><a class="link-gob" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">
+                            Organización Mundial de la Salud</a></strong> para obtener la información más actualizada y
+                    precisa.</p>
+                <br>
+                <p>
+                    También te recomendamos visitar el sitio oficial del <strong><a class="link-gob"
+                            href="https://www.argentina.gob.ar/salud/coronavirus-COVID-19"> Ministerio de Salud de la
+                            Nación</a></strong> ya que cuenta con información, recomendaciones y medidas de prevención.
+                </p>
+                <br>
+                <p>
+                   <strong>Toma precauciones, cuida tu salud, quedate en casa.</strong> 
+                </p>
+            </div>
+        </div>
+    </section>
     <!-- Subscribite a YouTube -->
     <section class="subscribite subscribite__container">
         <div class="youTube">
             <h3>Subscritibe al canal de YouTube</h3>
         </div>
         <div class="subscribirme">
-            <button class="conocenos"><a
-                    href="https://www.youtube.com/channel/UCklZ4m7a0A1k0pC_XOqmTRw">Subscribirme</a></button>
+            <button class="conocenos"><a href="https://www.youtube.com/channel/UCklZ4m7a0A1k0pC_XOqmTRw"
+                    target="_blank">Subscribirme</a></button>
         </div>
     </section>
-      <!-- Footer -->
-      <footer class="footer container">
+    <!-- Footer -->
+    <footer class="footer container-fluid">
         <div>
             <img src="assets/images/logo.svg" alt="lasmusicletaslogo">
         </div>
@@ -100,18 +131,25 @@
                             class="iFooter fab fa-instagram"></i></a></button>
             </div>
             <div class=" icons">
-                <button class="roundes"><i class="iFooter fas fa-envelope"></i></button>
-            </div>
+                <button class="roundes"><a href="https://www.youtube.com/channel/UCklZ4m7a0A1k0pC_XOqmTRw"
+                        target="_blank"><i class="iconoBlanco fab fa-youtube"></i></button> </div>
             <div class=" icons">
                 <button class="roundes"><a href="https://www.facebook.com/search/top?q=las%20musicletas"
                         target="_blank"><i class="iFooter fab fa-facebook-square"></i></a></button>
             </div>
             <div class=" icons">
-                <button class="roundes"><i class="iFooter fab fa-twitter-square"></i></button>
+                <button class="roundes"><a href="https://lasmusicletas.bandcamp.com/album/las-musicletas"
+                        target="_blank"><i class=" iconoBlanco fab fa-bandcamp"></i></a></button>
             </div>
         </div>
     </footer>
-
+    <div class="copyRight">
+        <div class="col-md-12 responsive">
+            <div class="text-center">
+                © Catalina Hernández | 2020 Derechos reservados.
+            </div>
+        </div>
+    </div>
 
 </body>
 

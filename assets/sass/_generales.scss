@@ -388,3 +388,42 @@ aside {
   width: 78%;
   height: 74vh;
 }
+.eventoImagen {
+  margin-top: 30vh;
+  margin-left: 10%;
+  height: 60vh;
+  text-align: center;
+  img { 
+        width: 100%;
+  }
+}
+.evento{
+  display: flex;
+}
+.tittleFechas{
+  color:$violeta;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.tituloh4 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: $aqua;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.fondoEvento{
+background-color: $grismasclaro;
+padding-bottom: 7%;
+}
+.text-center{
+  text-align: center;
+  color: $gris;
+}
+.copyRight{
+  padding-top: 1%;
+  background-color: $amarillo;
+  padding-bottom: 1%;
+}
