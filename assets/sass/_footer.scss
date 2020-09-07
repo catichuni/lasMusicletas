@@ -1,0 +1,62 @@
+/* Subscribite a Youtube */
+.subscribite{
+  background-color: $blanco;
+  color: $aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.subscribite__container{
+      padding-left:5%;
+      padding-right:5%;
+}
+
+
+/* Footer */
+.footer {
+    background-color: $aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .socialmediaFooter {
+    display: flex;
+  }
+
+  .icons {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: $violeta;
+    border-radius: 50%;
+    display: flex;
+    color: $aqua;
+    justify-content: center;
+    &:hover{
+      background-color: $amarillo;
+      transform:scale(1.2,1.2);
+      color: $blanco;
+    }
+  }
+
+  .iFooter {
+    color: $blanco;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .roundes{
+    border:none;
+    background-color: transparent;
+    color:white;
+  }
+  // .icons {
+  //   background-color: $blanco;
+  //   color: $aqua;
+  //   // &:hover{
+  //   //   color: $blanco;
+  //   //   background-color: $amarillo;
+  //   // }
+  // }
