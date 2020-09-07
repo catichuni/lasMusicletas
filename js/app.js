@@ -160,43 +160,43 @@ function hover(){
         // descripcion.innerHTML = "hola commo estas"
     });
 }
-// hover();
-function CambioIntegrantes (IDnombre, IDimg, nombre, SRCpng, alt, SRCsvg, reseña){
-    let integrante = document.querySelector(IDnombre);
-    let img = document.querySelector(IDimg);
+hover();
+// function CambioIntegrantes (IDnombre, IDimg, nombre, SRCpng, alt, SRCsvg, reseña){
+//     let integrante = document.querySelector(IDnombre);
+//     let img = document.querySelector(IDimg);
 
-    let d = document
-    var imagenGrande = d.querySelector('.integrante');
-    var n = d.querySelector('#titulo')
-    var descripcion = d.querySelector ('#descripcion');
+//     let d = document
+//     var imagenGrande = d.querySelector('.integrante');
+//     var n = d.querySelector('#titulo')
+//     var descripcion = d.querySelector ('#descripcion');
 
-    integrante.addEventListener('mouseover', () => {
-        img.src = SRCpng
-        img.alt = alt
-    });
-    integrante.addEventListener('mouseout', () => {
-        img.src = SRCsvg
-    })
-    integrante.addEventListener('click', ()=>{
-        imagenGrande.src = SRCpng;
-        n.innerHTML = nombre;
-        descripcion.innerHTML = reseña;
-    })
+//     integrante.addEventListener('mouseover', () => {
+//         img.src = SRCpng
+//         img.alt = alt
+//     });
+//     integrante.addEventListener('mouseout', () => {
+//         img.src = SRCsvg
+//     })
+//     integrante.addEventListener('click', ()=>{
+//         imagenGrande.src = SRCpng;
+//         n.innerHTML = nombre;
+//         descripcion.innerHTML = reseña;
+//     })
 
-    console.log(integrante, img);
-}
-CambioIntegrantes ('#ale', 
-'#imgAle', 
-"Ale Rojas Paz",
-"assets/images/nosotras/ale.png","Cantante de la banda",
-"assets/images/ilustraciones/ale.svg",
-"Ale Rojas Paz es la cantante de la banda");
+//     console.log(integrante, img);
+// }
+// CambioIntegrantes ('#ale', 
+// '#imgAle', 
+// "Ale Rojas Paz",
+// "assets/images/nosotras/ale.png","Cantante de la banda",
+// "assets/images/ilustraciones/ale.svg",
+// "Ale Rojas Paz es la cantante de la banda");
 
-CambioIntegrantes (
-    '#vale', 
-    '#imgVale', 
-    "Valentina Rovira",
-    "assets/images/nosotras/vale.png",
-    "Cantante de la banda",
-    "assets/images/ilustraciones/vale.svg");
-CambioIntegrantes ('#ito', '#imgIto', "Rosario Brandan" ,"assets/images/nosotras/ito.png","Cantante de la banda", "assets/images/ilustraciones/ito.svg");
+// CambioIntegrantes (
+//     '#vale', 
+//     '#imgVale', 
+//     "Valentina Rovira",
+//     "assets/images/nosotras/vale.png",
+//     "Cantante de la banda",
+//     "assets/images/ilustraciones/vale.svg");
+// CambioIntegrantes ('#ito', '#imgIto', "Rosario Brandan" ,"assets/images/nosotras/ito.png","Cantante de la banda", "assets/images/ilustraciones/ito.svg");
