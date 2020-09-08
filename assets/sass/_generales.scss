@@ -424,6 +424,12 @@ padding-bottom: 7%;
 .text-center{
   text-align: center;
   color: $gris;
+  a{
+    color: $gris;
+    &:hover{
+      color: $violeta;
+    }
+  }
 }
 .copyRight{
   padding-top: 1%;

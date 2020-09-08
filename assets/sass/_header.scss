@@ -21,6 +21,9 @@
   .navLogo{
     display: flex;
   }
+  .logo-nav{
+    width: 50%;
+  }
   .navBoton{
     display: flex;
     align-items: center;
@@ -258,9 +261,14 @@
     width: 100%;
     height: 100vh;
     text-align: center;
+
   }
   
   li a {
     color: $blanco;
     text-decoration: none;
+  }
+  .link-nav{
+    text-decoration: none;
+    display: flex;
   }

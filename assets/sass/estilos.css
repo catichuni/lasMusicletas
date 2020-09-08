@@ -332,6 +332,11 @@ aside {
   background-color: #FFFFFF;
 }
 
+.celda:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
 .imagenPersonal {
   position: relative;
   width: 100%;
@@ -474,6 +479,14 @@ a {
   color: #3d3d3d;
 }
 
+.text-center a {
+  color: #3d3d3d;
+}
+
+.text-center a:hover {
+  color: #643b8d;
+}
+
 .copyRight {
   padding-top: 1%;
   background-color: #FFBD3C;
@@ -511,6 +524,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.logo-nav {
+  width: 50%;
 }
 
 .navBoton {
@@ -774,6 +791,13 @@ header nav ul {
 li a {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.link-nav {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* Subscribite a Youtube */
