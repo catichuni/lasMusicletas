@@ -49,7 +49,7 @@ function hover(){
     ale.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/ale.png";
         nombre.innerHTML = "Ale Rojas Paz"
-        // descripcion.innerHTML = "hola commo estas"
+        descripcion.innerHTML = "Va a toda velocidad en una bici de carretera manteniendo el dominio de múltiples accesorios impulsados por el poder de su voz. Es la que le pone el fuego, el calor y enciende el show."
     })
 
     let celia = d.querySelector('#celia');
@@ -64,7 +64,7 @@ function hover(){
     celia.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/celi.png";
         nombre.innerHTML = "Celi Mirabella"
-        // descripcion.innerHTML = "hola commo estas"
+         descripcion.innerHTML = "Viajando en triciclo jugando como en la infancia, nos mantiene unidas y divertidas entre redes de notas.<br> Con el fluir de la flauta Traversa y el sonar del saxo soprano aviva el viento que nos hace bailar y gozar."
     })
 
     let dana = d.querySelector('#dana');
@@ -79,7 +79,7 @@ function hover(){
     dana.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/dana.png";
         nombre.innerHTML = "Dana Yalour"
-        // descripcion.innerHTML = "hola commo estas"
+        descripcion.innerHTML = "Es una de las primeras en formar la banda. <br> Con experiencia y dominio va en su monociclo circense paseando por las teclas del piano y la melódica juntandonos en un mismo compás."
     })
 
     let gi = d.querySelector('#gi');
@@ -94,7 +94,7 @@ function hover(){
     gi.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/gi.png";
         nombre.innerHTML = "Giselle Machado"
-        // descripcion.innerHTML = "hola commo estas"
+        descripcion.innerHTML = "A ella le gustan los desafíos y por eso va en una Montain bike rodado 26 tirando solos mágicos que hacen estallar a su club de fans. <br> Lo fantástico de la Gi es que conoce de estilos y colores que vibran con sus cuerdas y su risa súper graciosa."
     });
 
 
@@ -110,7 +110,7 @@ function hover(){
     ito.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/ito.png";
         nombre.innerHTML = "Ito Brandan"
-        // descripcion.innerHTML = "hola commo estas"
+        descripcion.innerHTML = "Ella viaja en una bici plegable llena de ritmo y sabor. <br> Va retumbando los parches, haciendo sonar las congas invitandonos a bailar y disfrutar."
     });
 
     let ana = d.querySelector('#ana');
@@ -125,7 +125,7 @@ function hover(){
     ana.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/ana.png";
         nombre.innerHTML = "Ana Castellanos"
-        // descripcion.innerHTML = "hola commo estas"
+        descripcion.innerHTML = "Muy tranquila y paciente viaja en una bici playera. <br> Dominando los platillos de la batería y marcando el pulso del tambor nos hace pasear con ritmos diferentes de la cumbia que se combinan con Funk y pasan al ska."
     });
 
 
@@ -141,7 +141,7 @@ function hover(){
     ludmi.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/ludmi.png";
         nombre.innerHTML = "Ludmilla Bardon Kheil"
-        // descripcion.innerHTML = "hola commo estas"
+        descripcion.innerHTML = "Es la que tiene una bici a motor, va tranqui,sin apuros. Parece tímida hasta que enciende el motor, y hace tumbar el bajo viajando de la salsa hasta el rock. <br> Ella es la que le pone sabor."
     });
 
 
@@ -157,7 +157,7 @@ function hover(){
     vale.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/vale.png";
         nombre.innerHTML = "Vale Rovira"
-        // descripcion.innerHTML = "hola commo estas"
+        descripcion.innerHTML = "Ella tiene una bici con 8 silletas, siempre contenta y eufórica nos lleva y nos trae de aquí para allá. Tiene una voz potente que nos enciende y nos invita a gozar."
     });
 }
 hover();
