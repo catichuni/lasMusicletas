@@ -64,7 +64,7 @@ function hover(){
     celia.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/celi.png";
         nombre.innerHTML = "Celi Mirabella"
-         descripcion.innerHTML = "Viajando en triciclo jugando como en la infancia, nos mantiene unidas y divertidas entre redes de notas.<br> Con el fluir de la flauta Traversa y el sonar del saxo soprano aviva el viento que nos hace bailar y gozar."
+         descripcion.innerHTML = "Viajando en triciclo jugando como en la infancia, nos mantiene unidas y divertidas entre redes de notas. Con el fluir de la flauta Traversa y el sonar del saxo soprano aviva el viento que nos hace bailar y gozar."
     })
 
     let dana = d.querySelector('#dana');
@@ -79,7 +79,7 @@ function hover(){
     dana.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/dana.png";
         nombre.innerHTML = "Dana Yalour"
-        descripcion.innerHTML = "Es una de las primeras en formar la banda. <br> Con experiencia y dominio va en su monociclo circense paseando por las teclas del piano y la melódica juntandonos en un mismo compás."
+        descripcion.innerHTML = "Es una de las primeras en formar la banda. Con experiencia y dominio va en su monociclo circense paseando por las teclas del piano y la melódica juntandonos en un mismo compás."
     })
 
     let gi = d.querySelector('#gi');
@@ -94,7 +94,7 @@ function hover(){
     gi.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/gi.png";
         nombre.innerHTML = "Giselle Machado"
-        descripcion.innerHTML = "A ella le gustan los desafíos y por eso va en una Montain bike rodado 26 tirando solos mágicos que hacen estallar a su club de fans. <br> Lo fantástico de la Gi es que conoce de estilos y colores que vibran con sus cuerdas y su risa súper graciosa."
+        descripcion.innerHTML = "A ella le gustan los desafíos y por eso va en una Montain bike rodado 26 tirando solos mágicos que hacen estallar a su club de fans. Lo fantástico de la Gi es que conoce de estilos y colores que vibran con sus cuerdas y su risa súper graciosa."
     });
 
 
@@ -125,7 +125,7 @@ function hover(){
     ana.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/ana.png";
         nombre.innerHTML = "Ana Castellanos"
-        descripcion.innerHTML = "Muy tranquila y paciente viaja en una bici playera. <br> Dominando los platillos de la batería y marcando el pulso del tambor nos hace pasear con ritmos diferentes de la cumbia que se combinan con Funk y pasan al ska."
+        descripcion.innerHTML = "Muy tranquila y paciente viaja en una bici playera. Dominando los platillos de la batería y marcando el pulso del tambor nos hace pasear con ritmos diferentes de la cumbia que se combinan con Funk y pasan al ska."
     });
 
 
@@ -141,7 +141,7 @@ function hover(){
     ludmi.addEventListener('click', ()=>{
         imagenGrande.src = "assets/images/nosotras/ludmi.png";
         nombre.innerHTML = "Ludmilla Bardon Kheil"
-        descripcion.innerHTML = "Es la que tiene una bici a motor, va tranqui,sin apuros. Parece tímida hasta que enciende el motor, y hace tumbar el bajo viajando de la salsa hasta el rock. <br> Ella es la que le pone sabor."
+        descripcion.innerHTML = "Es la que tiene una bici a motor, va tranqui,sin apuros. Parece tímida hasta que enciende el motor, y hace tumbar el bajo viajando de la salsa hasta el rock. Ella es la que le pone sabor."
     });
 
 
